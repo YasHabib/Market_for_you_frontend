@@ -1,0 +1,90 @@
+/* .App {
+  text-align: center;
+}  */
+ 
+.App-logo {
+  top: 25px;
+  width: 260px;
+  height: 97px;
+  opacity: 1;
+  align-items: center;
+  position: relative;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}  */
+
+.App-header {
+  background-image: url('./assets/Main Page/background_begin.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Login{
+  background: transparent url('./assets/Main Page/Main_button_yellow.svg') 0% 0% no-repeat padding-box;
+  background-position: center;
+  top: 100px;
+  opacity: 1;
+  display: grid;
+  align-items: center;
+  position: relative;
+
+  width: 345px;
+  height: 64px;
+  border-radius: 37px;
+  box-shadow: 0px 5px 20px #00000024;
+
+    /*text properties*/
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Create_account{
+  top: 110px;
+  background: var(--unnamed-color-6318af) 0% 0% no-repeat padding-box;
+  background: #6318AF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 20px #00000024;
+  opacity: 1;
+  align-items: center;
+  position: relative;
+
+  width: 345px;
+  height: 64px;
+  border-radius: 37px;
+  box-shadow: 0px 5px 20px #00000024;
+
+  /*text properties*/
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 20px/27px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}  */
