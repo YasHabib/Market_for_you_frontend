@@ -18,8 +18,9 @@ function App() {
             }}>Welcome Back!</text>
             <br></br>
             <LoginWindow></LoginWindow>
+            <button>Login</button>
           </Popup>
-          
+
           <Popup className='Register-window' trigger={<button className='Create_account'>Create Account</button>} position="center center">
             <text style={{
               color: "#9349DE"

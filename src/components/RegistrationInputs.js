@@ -13,7 +13,7 @@ function RegistrationInputsPage1() {
              <tr><text>Email</text></tr>
              <tr><input className='EmailInput' placeholder='Your email'></input></tr>
              <tr><text>Phone</text></tr>
-             <tr><input className='PhoneInput'></input></tr>
+             <tr><input className='PhoneInput' type={"tel"}></input></tr>
            </td>
            <td>
             <tr><text>Street Address</text></tr>
@@ -22,7 +22,7 @@ function RegistrationInputsPage1() {
             <tr><select className='CityInputs'>
                   <option value="Brooks">Brooks</option>
                   <option value="Calgary">Calgary</option>
-                  <option value="Comrose">Camrose</option>
+                  <option value="Comrose">Camorse</option>
               </select>
             </tr>
            </td>
