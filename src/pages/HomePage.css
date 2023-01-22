@@ -9,6 +9,10 @@
     opacity: 1;
 }
 
+.Wrapper{
+    margin-left: 130px;
+    margin-right: 130px;
+}
 .DealsForYou{
     /* Layout Properties */
     top: 221px;
@@ -58,4 +62,29 @@
     background: orange;
     border-radius: 5px;
     opacity: 1;
+}
+
+.AppStoreLink{
+    top: 2228px;
+    left: 142px;
+    width: auto;
+    height: 546px;
+    /* UI Properties */
+    background: transparent url('../assets/HomePage/Banner_mask.png') 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+footer{
+    left: 0px;
+    width: auto;
+    height: 609px;
+    opacity: 1;
+    background-image: url('../assets/MainPage/background_begin.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
