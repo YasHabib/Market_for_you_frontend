@@ -1,0 +1,61 @@
+.Header{
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 191px;
+    /* UI Properties */
+    background: var(--unnamed-color-6318af) 0% 0% no-repeat padding-box;
+    background: #6318AF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.DealsForYou{
+    /* Layout Properties */
+    top: 221px;
+    left: 142px;
+    width: auto;
+    height: 480px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: gray;
+    border-radius: 5px;
+    opacity: 1;
+}
+.CategoryBlock{
+    display: inline-block;
+    top: 731px;
+    left: 142px;
+    width: 50%;
+    height: 480px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: purple;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.MoreDealsForYou{
+    /* Layout Properties */
+    top: 1241px;
+    left: 142px;
+    width: auto;
+    height: 480px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: green 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.CategoryBlockSide{
+    display: inline-block;
+    justify-content: end;
+    top: 731px;
+    left: 142px;
+    width: 50%;
+    height: 480px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: orange;
+    border-radius: 5px;
+    opacity: 1;
+}

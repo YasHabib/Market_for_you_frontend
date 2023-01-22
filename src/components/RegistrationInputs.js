@@ -6,6 +6,8 @@ function RegistrationInputsPage1() {
        <table>
          <tbody>
            <td>
+             <text style={{color: "#9349DE"}}>Welcome to Market For You!</text>
+             <br></br>
              <tr><text>First Name</text></tr>
              <tr><input className='FirstNameInput' placeholder='Your first name'></input></tr>
              <tr><text>Last Name</text></tr>
