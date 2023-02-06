@@ -1,16 +1,14 @@
 .Welcome{
-    display: flex;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-9349de);
-    justify-content: center;
     font: normal normal bold 20px/20px Open Sans;
     letter-spacing: 0px;
     color: #9349DE;
     opacity: 1;
 }
 .Email{
-    top: 419px;
-    left: 694px;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
     height: 30px;
 /* UI Properties */
@@ -32,3 +30,33 @@
     border-radius: 4px;
     opacity: 1;
 }
+.Login-Label{
+    padding-left: 20%;
+}
+.Forgot-Password-Text{
+    position: relative;
+    color: orange;
+    left: 70%;
+}
+.Forgot-Password-Text:hover{
+    cursor: pointer;
+}
+
+.Forgot-Password-content{
+    top: 200px;
+    left: 556px; 
+    width: 500px;
+    height: 300px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 7px 12px #00000024;
+    border-radius: 10px;
+    opacity: 1;
+}
+/* 
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 37px;
+    box-shadow: 0px 5px 20px #00000024;
+} */

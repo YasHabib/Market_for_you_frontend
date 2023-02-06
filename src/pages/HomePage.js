@@ -1,12 +1,11 @@
 import React from 'react'
 import './HomePage.css'
+import Header from '../components/Header'
 
 export default function Dashboard() {
   return (
     <body>
-        <header className='Header'>
-          <h1>Header</h1>
-        </header>
+        <Header></Header>
         <div className='Wrapper'>
           <div className='DealsForYou'>
             <h1>DealsForYou</h1>
@@ -27,6 +26,7 @@ export default function Dashboard() {
               <h1>Category 4</h1>
           </span>
           <div className='AppStoreLink'>
+            
           </div>
         </div>
         <footer>

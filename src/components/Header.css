@@ -1,0 +1,42 @@
+header{
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 191px;
+    /* UI Properties */
+    background: var(--unnamed-color-6318af) 0% 0% no-repeat padding-box;
+    background: #6318AF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.SearchAndCity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo{
+    display: grid;
+    position: relative;
+    top: 30%;
+    margin-left: 2%;
+    width: 13%;
+    height: 40px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Search{
+    display: inline;
+    position: relative;
+    margin-left: 13%;
+    top: 5%;
+    width: 40%;
+    height: 25%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+.CitySelector{
+}
